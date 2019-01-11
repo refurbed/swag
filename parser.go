@@ -869,7 +869,7 @@ func (parser *Parser) parseField(field *ast.Field) *structField {
 			}
 		}
 	}
-	if validateTag := structTag.Get("validate"); validateTag != "" {
+	if validateTag := structTag.Get("valid"); validateTag != "" {
 		for _, val := range strings.Split(validateTag, ",") {
 			if val == "required" {
 				structField.isRequired = true
