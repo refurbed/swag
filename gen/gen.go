@@ -10,7 +10,7 @@ import (
 
 	"github.com/ghodss/yaml"
 	"github.com/pkg/errors"
-	"github.com/swaggo/swag"
+	"github.com/refurbed/swag"
 )
 
 // Gen presents a generate tool for swag.
